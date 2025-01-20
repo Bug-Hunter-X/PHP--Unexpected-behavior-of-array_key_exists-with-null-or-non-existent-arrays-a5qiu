@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in PHP related to handling null or non-existent arrays with `array_key_exists`. The `incrementArrayValue` function aims to increment a value in an array based on a given key. However, it throws notices if a null or undefined array is passed. The solution implements a check for null and undefined arrays.
